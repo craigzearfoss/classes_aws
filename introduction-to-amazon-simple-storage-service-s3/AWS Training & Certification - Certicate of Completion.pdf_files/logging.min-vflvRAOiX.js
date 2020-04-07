@@ -1,0 +1,2 @@
+define(["require","exports","tslib","modules/core/browser","modules/clean/analytics"],(function(e,t,r,o,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),o=r.__importStar(o),t.logEvent=function(e,t){return n.ProEventsLogger.log(e,r.__assign({project:"montana",path:o.get_uri().getPath()},t))}}));
+//# sourceMappingURL=logging.min.js-vflim8jOH.map

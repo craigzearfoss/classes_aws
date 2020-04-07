@@ -1,0 +1,374 @@
+/** @generated -- This file is automatically synced from rMCL. DO NOT MODIFY! **/
+
+/**
+  This file should not imported into your CSS or SASS files - the CSS variables will be available on the page for you to use.
+  DO NOT USE THIS FILE OR THE CSS VARIABLE TOKENS WITHOUT FIRST TALKING TO mtole@ OR THE DESIGN SYSTEMS ON-CALL (SEE #design-systems ON SLACK)
+**/
+
+:root {
+  /* DIG_V1_COLORS */
+  --color_background_backdrop: rgba(99, 114, 130, 0.5);
+  --color_border_dark: #c6c9cd;
+  --color_border_highlight: #ccd9fa;
+  --color_border_light: #dddfe1;
+  --color_brand_banana: #ffd830;
+  --color_brand_black_cherry: #61082b;
+  --color_brand_candy_apple: #d5001f;
+  --color_brand_canopy: #005744;
+  --color_brand_celadon: #a2d39b;
+  --color_brand_cloud: #b4d0e7;
+  --color_brand_dbx_blue: #0061ff;
+  --color_brand_orchid: #ceb4ff;
+  --color_brand_panda_black: #000000;
+  --color_brand_panda_white: #fff;
+  --color_brand_pink_library: #ffafa2;
+  --color_brand_rococo_gold: #ad780d;
+  --color_brand_sand: #d8bea2;
+  --color_brand_sapphire: #0d2481;
+  --color_brand_stone: #d0d0d3;
+  --color_brand_sunset: #fb570d;
+  --color_brand_ultraviolet: #813bf6;
+  --color_brand_wheat: #ffcb95;
+  --color_dbx_blue_100: #0061ff;
+  --color_dbx_blue_110: #0052d9;
+  --color_dbx_blue_120: #0046ba;
+  --color_dropshadow: rgba(99, 114, 130, 0.16);
+  --color_focus_outline: #a6bdeb;
+  --color_ink_100: #1d2737;
+  --color_ink_15: #dddfe1;
+  --color_ink_25: #c6c9cd;
+  --color_ink_40: #a5a9af;
+  --color_ink_5: #f3f4f5;
+  --color_ink_60: #717781;
+  --color_negative_100: #d5001f;
+  --color_opacity_darken_15: rgba(29, 39, 55, 0.15);
+  --color_opacity_darken_5: rgba(29, 39, 55, 0.05);
+  --color_opacity_highlight: rgba(166, 189, 235, 0.4);
+  --color_positive_100: #00864c;
+  --color_positive_80: #00a83e;
+  --color_sapphire_10: #e8ecfa;
+  --color_sapphire_100: #0d2484;
+  --color_sapphire_110: #081753;
+  --color_sapphire_20: #ccd9fa;
+  --color_sapphire_30: #a6bdeb;
+  --color_sapphire_5: #f4f6ff;
+  --color_sapphire_90: #1b3398;
+  --color_text_default: #1d2737;
+  --color_text_disabled: #a5a9af;
+  --color_text_inverse_default: #fff;
+  --color_text_inverse_disabled: rgba(255,255,255,0.3);
+  --color_text_inverse_subtext: rgba(255,255,255,0.6);
+  --color_text_link: #0061ff;
+  --color_text_negative: #d5001f;
+  --color_text_positive: #00864c;
+  --color_text_subtext: #717781;
+  --color_warning_100: #f1aa00;
+  --color_white: #fff;
+}
+
+:root {
+  /* DIG_V1_UTILITIES */
+  --token_border_hairline: 1px solid #dddfe1;
+  --token_boxshadow_dropshadow: 0 0 0 1px rgba(99, 114, 130, 0.16), 0 8px 16px rgba(27, 39, 51, 0.08);
+  --token_boxshadow_focusring: 0 0 0 3px #a6bdeb;
+  --token_boxshadow_focusring_mac: 0 0 0 3px rgba(27, 51, 152, 0.3);
+  --token_boxshadow_focusring_win: inset 0 0 0 1px #0d2484;
+  --token_boxshadow_focusring_win_hdpi: inset 0 0 0 0.5px rgba(27, 51, 152, 0.3);
+}
+
+:root {
+  /* DIG_V2_COLORS */
+  --color__black: #000000;
+  --color__black--15: #D9D9D9;
+  --color__black--25: #BFBFBF;
+  --color__black--40: #999999;
+  --color__black--5: #F2F2F2;
+  --color__black--60: #666666;
+  --color__black--80: #333333;
+  --color__black--90: #1F1F1F;
+  --color__black--95: #0D0D0D;
+  --color__candy__apple--80: #FF002E;
+  --color__crimson--100: #9B0033;
+  --color__crimson--5: #F7EBEF;
+  --color__dbx__blue--100: #0061FF;
+  --color__disabled__background: #BFBFBF;
+  --color__disabled__border: #BFBFBF;
+  --color__disabled__text: #999999;
+  --color__elevated__background: #FFFFFF;
+  --color__error__background: #F7EBEF;
+  --color__error__border: #9B0033;
+  --color__error__text: #9B0033;
+  --color__faint__background: #F2F2F2;
+  --color__faint__border: rgba(0, 0, 0, 0.05);
+  --color__faint__text: #666666;
+  --color__french__vanilla--100: #FFE7AA;
+  --color__french__vanilla--120: #FDD571;
+  --color__french__vanilla--20: #FFF8E6;
+  --color__highlight__background: #FFF8E6;
+  --color__highlight__border: #FFE7AA;
+  --color__inverse__disabled__background: #D9D9D9;
+  --color__inverse__disabled__border: rgba(255, 255, 255, 0.3);
+  --color__inverse__disabled__text: rgba(255,255,255,0.4);
+  --color__inverse__elevated__background: #0D0D0D;
+  --color__inverse__error__background: rgba(255, 0, 46, 0.3);
+  --color__inverse__error__border: #FF002E;
+  --color__inverse__error__text: #FF002E;
+  --color__inverse__faint__background: #1F1F1F;
+  --color__inverse__faint__border: rgba(255,255,255,0.2);
+  --color__inverse__faint__text: rgba(255,255,255,0.7);
+  --color__inverse__highlight__background: rgba(255,255,255,0.15);
+  --color__inverse__highlight__border: #FFE7AA;
+  --color__inverse__highlight__text: #B2CDFF;
+  --color__inverse__select__background: #FFF8E6;
+  --color__inverse__select__border: #FDD571;
+  --color__inverse__standard__background: #000000;
+  --color__inverse__standard__border: rgba(255,255,255,0.3);
+  --color__inverse__standard__text: #FFFFFF;
+  --color__opacity--darken1: rgba(0,0,0,0.06);
+  --color__opacity--darken2: rgba(0,0,0,0.12);
+  --color__opacity--darken3: rgba(0,0,0,0.18);
+  --color__opacity--lighten1: rgba(255,255,255,0.1);
+  --color__opacity--lighten2: rgba(255,255,255,0.15);
+  --color__opacity--lighten3: rgba(255,255,255,0.2);
+  --color__sapphire--100: #0D2481;
+  --color__sapphire--110: #00125C;
+  --color__sapphire--170: #171F3E;
+  --color__sapphire--180: #030B2D;
+  --color__sapphire--20: #B2CDFF;
+  --color__sapphire--5: #EDF4FF;
+  --color__sapphire--80: #2047BD;
+  --color__sapphire--90: #1C3DA3;
+  --color__standard__background: #FFFFFF;
+  --color__standard__border: rgba(0,0,0,0.15);
+  --color__standard__text: #000000;
+  --color__theme__accent: #FFE7AA;
+  --color__theme__accent--dark: #FDD571;
+  --color__theme__accent--light: #FFF8E6;
+  --color__theme__link: #0061FF;
+  --color__theme__primary: #0D2481;
+  --color__theme__primary--dark: #00125C;
+  --color__theme__primary--light: #1C3DA3;
+  --color__theme__primary--lighter: #B2CDFF;
+  --color__theme__primary--lightest: #EDF4FF;
+  --color__utility__focusring: rgba(178,205,255,0.8);
+  --color__utility__overlay: rgba(0,0,0,0.4);
+  --color__white: #FFFFFF;
+}
+
+:root {
+  /* DIG_V2_TYPOGRAPHY */
+  --type__body__large--fontfamily: Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__body__large--fontsize: 16px;
+  --type__body__large--fontweight: 400;
+  --type__body__large--fontweight_strong: 500;
+  --type__body__large--lineheight: 24px;
+  --type__body__small--fontfamily: Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__body__small--fontsize: 12px;
+  --type__body__small--fontweight: 400;
+  --type__body__small--fontweight_strong: 500;
+  --type__body__small--lineheight: 20px;
+  --type__body__standard--fontfamily: Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__body__standard--fontsize: 14px;
+  --type__body__standard--fontweight: 400;
+  --type__body__standard--fontweight_strong: 500;
+  --type__body__standard--lineheight: 22px;
+  --type__body__xsmall--fontfamily: Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__body__xsmall--fontsize: 10px;
+  --type__body__xsmall--fontweight: 400;
+  --type__body__xsmall--fontweight_strong: 500;
+  --type__body__xsmall--lineheight: 18px;
+  --type__title__large--fontfamily: Sharp Grotesk, SharpGrotesk, Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__title__large--fontsize: 28px;
+  --type__title__large--fontweight: 500;
+  --type__title__large--lineheight: 36px;
+  --type__title__small--fontfamily: Sharp Grotesk, SharpGrotesk, Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__title__small--fontsize: 16px;
+  --type__title__small--fontweight: 400;
+  --type__title__small--fontweight_strong: 500;
+  --type__title__small--lineheight: 26px;
+  --type__title__standard--fontfamily: Sharp Grotesk, SharpGrotesk, Atlas Grotesk, AtlasGrotesk, Atlas Grotesk Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --type__title__standard--fontsize: 22px;
+  --type__title__standard--fontweight: 500;
+  --type__title__standard--lineheight: 28px;
+}
+
+:root {
+  /* DIG_V2_MOTION */
+  --motion__ease--inout: cubic-bezier(0.42, 0.00, 0.58, 1.00);
+  --motion__ease--linear: linear;
+  --motion__ease--out: cubic-bezier(0.50, 0.00, 0.00, 1.00);
+  --motion__time--fast: 400ms;
+  --motion__time--faster: 200ms;
+  --motion__time--fastest: 100ms;
+  --motion__time--slow: 600ms;
+  --motion__time--slower: 1s;
+  --motion__time--slowest: 1.2s;
+}
+
+:root {
+  /* DIG_V2_BREAKPOINTS */
+  --breakpoint__large: 1600px;
+  --breakpoint__small: 800px;
+  --breakpoint__standard: 1024px;
+  --breakpoint__xlarge: 1920px;
+}
+
+:root {
+  /* DIG_V2_BOXSHADOWS */
+  --boxshadow__elevation0: 0 0 0 0 rgba(0,0,0,0);
+  --boxshadow__elevation1: 0 0 12px 0 rgba(0,0,0,0.12);
+  --boxshadow__elevation2: 0 0 40px 0 rgba(0,0,0,0.8);
+  --boxshadow__focusring: 0 0 0 3px rgba(178,205,255,0.8);
+}
+
+:root {
+  /* DIG_V2_UTILITIES */
+  --spacing__base_unit: 8px;
+}
+
+:root {
+  /* PRE_DIG_COLORS */
+  --color_apple: #91d44a;
+  --color_apple_illo: #bee594;
+  --color_background: #fff;
+  --color_background_black: #1d2737;
+  --color_banana: #ffc726;
+  --color_banana_illo: #ffe28f;
+  --color_black: #1d2737;
+  --color_blue: #0070e0;
+  --color_blue_dark: #005dd6;
+  --color_blue_eight: #ebf4fd;
+  --color_blue_forty: #99c6f3;
+  --color_blue_light: #007af5;
+  --color_blue_sixteen: #d6e8fa;
+  --color_blueberry: #344063;
+  --color_blueberry_illo: #505a78;
+  --color_caution: #f1aa00;
+  --color_chalk: #f7f9fa;
+  --color_cherry: #d62c0b;
+  --color_dbx_blue_200: #0052d9;
+  --color_dbx_blue_300: #0061ff;
+  --color_grape: #9b49f2;
+  --color_grape_illo: #c89bf8;
+  --color_gray_background: #f3f4f5;
+  --color_gray_background_hover: #dddfe1;
+  --color_gray_background_pressed: #dddfe1;
+  --color_gray_border_dark: #a5a9af;
+  --color_gray_border_dark_hover: #dddfe1;
+  --color_gray_border_dark_pressed: #a5a9af;
+  --color_gray_border_light: #dddfe1;
+  --color_gray_border_light_hover: #a5a9af;
+  --color_gray_border_light_pressed: #a5a9af;
+  --color_guava: #d31c92;
+  --color_ink: #1b2733;
+  --color_ink_05: #f3f4f5;
+  --color_ink_10: #e8e9eb;
+  --color_ink_30: #bbbec3;
+  --color_ink_300: #717781;
+  --color_ink_50: #8e939b;
+  --color_ink_500: #a5a9af;
+  --color_ink_63: #717781;
+  --color_ink_70: #616873;
+  --color_ink_700: #dddfe1;
+  --color_ink_900: #f3f4f5;
+  --color_ink_alpha_eight: rgba(27, 39, 51, 0.08);
+  --color_kiwi: #0d8424;
+  --color_lime: #3dcc5e;
+  --color_lime_illo: #7fde95;
+  --color_link: #0061ff;
+  --color_link_disabled: #a5a9af;
+  --color_link_hover: #0052d9;
+  --color_link_pressed: #0046ba;
+  --color_mint: #00755f;
+  --color_negative: #d5001f;
+  --color_osx_blue: #0061ff;
+  --color_osx_blue_dark: #004ecc;
+  --color_osx_blue_light: #3381ff;
+  --color_plum: #6c16db;
+  --color_positive: #00a83e;
+  --color_primary: #0d2484;
+  --color_primary_disabled: #a5a9af;
+  --color_primary_hover: #1b3398;
+  --color_primary_pressed: #081753;
+  --color_sapphire: #0d2484;
+  --color_sapphire_200: #0d2484;
+  --color_sapphire_300: #1b3398;
+  --color_sapphire_600: #4c61a3;
+  --color_sapphire_900: #e8ecfa;
+  --color_selected_background: #e8ecfa;
+  --color_selected_background_disabled: #f3f4f5;
+  --color_selected_background_pressed: #e1e5f7;
+  --color_selected_border: #ccd9fa;
+  --color_selected_border_disabled: #e8e9eb;
+  --color_selected_border_hover: #bdcbf1;
+  --color_selected_border_pressed: #b7c5ea;
+  --color_snozzberry: #00d6b6;
+  --color_snozzberry_illo: #78e9d8;
+  --color_squash: #3ba0f3;
+  --color_squash_illo: #b3d8f6;
+  --color_stone: #637282;
+  --color_stone_alpha_fifty: rgba(99, 114, 130, 0.5);
+  --color_stone_alpha_sixteen: rgba(99, 114, 130, 0.16);
+  --color_stone_dark: #536170;
+  --color_stone_forty: #c1c7cd;
+  --color_stone_light: #6a7c8f;
+  --color_stone_sixteen: #e6e8eb;
+  --color_tangerine: #ff8e21;
+  --color_tangerine_illo: #ffc185;
+  --color_text: #1d2737;
+  --color_text_inaccessible: #a5a9af;
+  --color_text_inverted: #fff;
+  --color_text_secondary: #717781;
+  --color_text_secondary_hover: #717781;
+  --color_text_secondary_pressed: #717781;
+  --color_tomato: #f25123;
+  --color_tomato_illo: #f79c82;
+  --color_warning: #f1aa00;
+  --color_watermelon: #ff6eb6;
+  --color_watermelon_illo: #ffa1d0;
+  --color_win_blue: #0061ff;
+  --color_win_blue_dark: #0269d9;
+}
+
+:root {
+  /* PRE_DIG_UTILITIES */
+  --app_name_font_size: 16px;
+  --app_name_font_weight: 400;
+  --app_name_line_height: 24px;
+  --body_font_size: 14px;
+  --body_font_weight: 400;
+  --body_line_height: 24px;
+  --border_hairline: 1px solid #e6e8eb;
+  --border_radius: 4px;
+  --desktop_font_stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --dropshadow: 0 0 0 1px rgba(99, 114, 130, 0.16), 0 8px 16px rgba(27, 39, 51, 0.08);
+  --focusring: 0 0 0 3px #99c6f3;
+  --font_stack: 'Atlas Grotesk', AtlasGrotesk, sans-serif;
+  --mac_border_radius: 5px;
+  --mac_focus_ring: 0 0 0 3px rgba(0, 112, 224, 0.3);
+  --mac_font_stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --marketing_headline_font_size: 30px;
+  --marketing_headline_font_weight: 200;
+  --marketing_headline_line_height: 48px;
+  --page_title_font_size: 20px;
+  --page_title_font_weight: 400;
+  --page_title_line_height: 32px;
+  --table_headers_font_size: 12px;
+  --table_headers_font_weight: 400;
+  --table_headers_line_height: 16px;
+  --tagline_font_size: 18px;
+  --tagline_font_weight: 200;
+  --tagline_line_height: 32px;
+  --win_border_radius: 0;
+  --win_focus_ring: inset 0 0 0 1px rgba(0, 120, 215, 1);
+  --win_focus_ring_hdpi: inset 0 0 0 0.5px rgba(0, 120, 215, 1);
+  --win_font_stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --z_index_backdrop: 11;
+  --z_index_content: 0;
+  --z_index_content_top: 20;
+  --z_index_mobile_menu: 12;
+  --z_index_modal: 12;
+  --z_index_modal_overlay: 11;
+  --z_index_table_header: 4;
+}
+

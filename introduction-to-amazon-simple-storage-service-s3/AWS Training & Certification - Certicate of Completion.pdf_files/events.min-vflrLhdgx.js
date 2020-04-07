@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/react/montana/in_product_modal/plus/plus_education_slides"],(function(e,r,t){"use strict";var a,n;Object.defineProperty(r,"__esModule",{value:!0}),r.featureType=((a={})[t.SLIDES.SmartSync]="smartsync",a[t.SLIDES.Rewind]="restore",a[t.SLIDES.MoreSpace]="space",a),r.slidesCTA=((n={})[t.SLIDES.SmartSync]="smart_cloud_syncing",n[t.SLIDES.Rewind]="30d_account_rewind",n[t.SLIDES.MoreSpace]="double_the_storage",n)}));
+//# sourceMappingURL=events.min.js-vflfjjU5E.map

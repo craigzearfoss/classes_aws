@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash","rondo/v1/behavior/compose/path"],(function(e,t,r,o,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),o=r.__importStar(o),t.createBehaviors=function(e,t){var r=e.map((function(e){return o.isFunction(e)?new e:e}));return n.setComposePath(r,t),r}}));
+//# sourceMappingURL=create.min.js-vfleQyqzA.map

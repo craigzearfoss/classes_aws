@@ -1,0 +1,2 @@
+define(["require","exports","rondo/v1/behavior"],(function(e,i,t){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),i.capabilities=function(e){return t.initialStateDecorator({capabilities:e})}}));
+//# sourceMappingURL=capabilities.min.js-vflcCFaDF.map
